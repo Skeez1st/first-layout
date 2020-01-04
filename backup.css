@@ -1,0 +1,333 @@
+@font-face {
+
+    font-family: Comfortaa; /* Имя шрифта */
+    
+    src: url(Fonts/Comfortaa.ttf); /* Путь к файлу со шрифтом */
+    
+}
+    
+
+.container {
+    height: 2000px;
+    width: 1000px;
+    margin: 0 auto;
+    border-color: white;
+    box-shadow: 0px 0px 10px #00000026;
+}
+
+.preview {
+    background-image: url(Images/prew.png);
+    width: 1000px;
+    height: 315px;
+}
+
+.nav-top .logo{
+    margin-left: 20px;
+    margin-top: 13px;
+    width: 60px;
+    height: 47px;
+    background: url(Images/logo.png) no-repeat;
+}
+
+.date-manage-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    height: 186px;
+    left: 58%;
+    top: 20%;
+    padding: 26px;
+    box-sizing: border-box;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.date-manage-box label {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    padding-bottom: 7px;
+
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #666666;
+}
+
+#date-submit {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #FFA800;
+    text-transform: uppercase;
+    color: #000000;
+    margin-top: 16.25px;
+}
+
+.date-manage-box input {
+    
+    text-transform: uppercase;
+    padding-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 5px;
+
+    color: #333333;
+
+    box-sizing: border-box;
+    border: 1px #CCCCCC solid;
+    border-radius: 5px;
+    height: 47.5px;
+}
+
+.nav-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.language {
+    margin-right: 20px;
+    margin-left: 77%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.currence img,
+.language img {
+    padding-left: 8px;
+}
+
+.currence {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.main-section {
+    position: absolute;
+    width: inherit;
+    box-shadow: 0px 0px 10px #00000026;
+    background: #FBFBFB;
+}
+
+.most-popular {
+    width: 980px;
+    height: 800px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+}
+  
+.popular-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 235px;
+    height: 485px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    margin-bottom: 2px;
+    border-radius: 5px;
+}
+
+/*.popular-card p{
+    padding-left: 20px;
+    padding-right: 20px;
+}*/
+
+.popular-card img{
+    width: 235px;
+    height: 130px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h3 {
+    padding-left: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+
+    color: #000000;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}
+
+.card-desc {
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+
+    color: #000000;
+}
+
+.card-text {
+    height: 281px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price-container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price {
+    font-family: Roboto;
+    font-style: bold;
+    font-weight: 600;
+    font-size: 16px;
+
+    color: #000000;
+}
+.count {
+    text-transform: lowercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 5px;
+
+    color: #333333;
+    position: absolute;
+}
+
+.rating {
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.most-popular-table {
+    width: 100px;
+    height: 16px;
+
+    text-transform: uppercase;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: center;
+
+    align-self: center;
+    color: #FFFFFF;
+
+
+    background: #6571DC;
+    border-radius: 3px;
+}
+
+.special-offers {
+    display: flex;
+    flex-direction: column;
+    width: 980px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    position: absolute;
+    padding-top: 590px;
+}
+
+.offers-desc {
+    width: inherit;
+    height: 195px;
+
+    background: linear-gradient(90deg, #F4E182 -1.79%, #F3DB59 100%);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.offers-desc p {
+    padding-left: 120px;
+    padding-right: 120px;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 31px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.offers-desc p span{
+    color: rgb(227, 120, 57);
+}
+
+.offers-desc input {
+    margin-left: 329px;
+    margin-right: 329px;
+    width: 346px;
+    height: 48px;
+    text-transform: uppercase;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #000000;
+    
+    background: #FFA800;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1), 0px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.categories {
+    position: absolute;
+    padding-top: 1190px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+
+}
